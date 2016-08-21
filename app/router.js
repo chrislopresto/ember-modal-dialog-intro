@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('presentations', function() {
+    this.route('ember-modal-dialog-intro');
+  });
 });
 
 export default Router;

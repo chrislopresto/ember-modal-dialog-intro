@@ -1,0 +1,79 @@
+.full-iframe {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  // background: #f8efec url('ember-reveal-js/ember-background-shades.svg');
+  // background-color: #f8efec;
+}
+
+#the-outside-world {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+}
+
+.emdi {
+  &-TetherDialogTarget {
+    position: relative;
+    padding: 10px;
+    top: 20px;
+    left: 20px;
+  }
+
+  &-ModalToggler {
+    padding: 10px;
+    background-color: lightskyblue;
+    border: none;
+    color: #eee;
+  }
+
+  &-Modal {
+    padding: 80px !important;
+    text-align: center;
+    color: black;
+  }
+
+  &-CodeFragment {
+    pre {
+      padding: 10px;
+    }
+  }
+
+  &-TedEdMobileDemo {
+    width: 399px;
+    height: 589px;
+  }
+
+}
+
+.reveal .emdi {
+  &-Diagram {
+    max-height: 500px !important;
+  }
+
+  &-StoryLine {
+    margin-top: 10px;
+  }
+
+  &-StoryItem {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+
+    &-text {
+      font-size: .8rem;
+    }
+
+    &-image {
+      box-shadow: none !important;
+      max-height: 200px !important;
+      max-width: 200px !important;
+      margin: 2px !important;
+      border-width: 1px !important;
+      border-radius: 3px !important;
+    }
+  }
+
+}
